@@ -1,0 +1,13 @@
+tbody,tr,td{
+    border: 1px solid white;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#mainTable{
+    text-align: center;
+    position: relative;
+    width: 600px;
+}

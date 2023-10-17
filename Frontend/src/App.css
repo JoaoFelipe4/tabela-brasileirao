@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+#upperText{
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+#upperTextLine{
+    display: inline-block;
+    position:relative;
+    width: 450px;
+    left: 50px;
+}
+
+#uniqueGameGrid{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+
+#navContainer{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#navGames{
+    margin: 30px;
+    text-align: center;
+    position: inherit;
+    float: none;
+}
+
+#previousButton{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#nextButton{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#score{
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    line-height: 2px;
+}
+
